@@ -23,7 +23,7 @@ body:
       label: Organzation
       description: Please select your  Organzation
       placeholder: select
-      options:
+      option:
         - CIBC 
         - CIBC EMU
         - Safari
