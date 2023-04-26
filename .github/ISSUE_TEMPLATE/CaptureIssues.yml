@@ -1,6 +1,6 @@
 name: Issue Form
 description: Capture details from user and create an issue with the details. 
-title: "issues:"
+title: "issue:"
 labels: ["form" ,"triage"]
 #assignees:
 # - octocat
