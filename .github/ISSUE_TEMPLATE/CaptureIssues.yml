@@ -9,7 +9,8 @@ body:
 attributes:
 value: |
     Use this form to fill the details.
-- type: dropdown #id: Organization
+- type: dropdown
+#id: Organization
 attributes:
 label: Please select your organization. 
 options:
@@ -23,7 +24,8 @@ attributes:
 label: Enter your Application/Repository name 
 validations:
 required: true
-- type: input attributes:
+- type: input 
+attributes:
 label: Enter the MAP ID 
 validations:
 required: true
@@ -31,15 +33,13 @@ required: true
 #id: Users 
 attributes:
 label: Add users
-placeholder: "Type or choose the user.
-18
+placeholder: "Type or choose the user."
 render: github
 validations:
 required: true
 - type: input 
 attributes:
 label: Select your Repository admin
-description:
-"Select a user from the above user list"
+description: "Select a user from the above user list."
 validations:
 required: true
