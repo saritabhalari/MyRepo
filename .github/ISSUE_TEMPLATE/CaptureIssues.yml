@@ -1,6 +1,7 @@
-[2:53 pm, 26/04/2023] S: name: Issue Form
-description: Capture details from user and create an issue with the details. title: "Issue: labels: ["'form" #assignees:
-"triage"
+ name: Issue Form
+description: Capture details from user and create an issue with the details. title: 
+"Issue: labels: ["'form" #assignees:
+"triage"]
 # - octocat
 body:
 - type: markdown attributes:
