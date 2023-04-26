@@ -1,34 +1,32 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+[2:53 pm, 26/04/2023] S: name: Issue Form
+description: Capture details from user and create an issue with the details. title: "Issue: labels: ["'form" #assignees:
+"triage"
+# - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-     
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: Organzation
-      description: Please select your  Organzation
-      placeholder: select
-      option:
-        - CIBC 
-        - CIBC EMU
-        - Safari
-        - Microsoft Edge
-    validations:
-      required: true
-  - type: dropdown
-  
+- type: markdown attributes:
+value: |
+Use this form to fill the details.
+- type: dropdown #id: Organization attributes:
+label: Please select your organization. options:
+- CIBC
+- CIBCEMU
+validations:
+required: true
+- type: input
+#id: Repositoryname attributes:
+label: Enter your Application/Repository name validations:
+required: true
+- type: input attributes:
+label: Enter the MAP ID validations:
+required: true
+- type: textarea #id: Users attributes:
+label: Add users
+placeholder: "Type or choose the user.
+18
+render: github validations:
+required: true
+- type: input attributes:
+label: Select your Repository admin description:
+"Select a user from the above user list"
+validations:
+required: true
